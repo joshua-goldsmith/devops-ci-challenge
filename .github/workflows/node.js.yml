@@ -20,5 +20,6 @@ jobs:
         node-version: 15.0.1
     - run: npm install
     - run: npm run lint
+    - run: npm install -g prettier
     - run: npm run prettier
     - run: npm build
